@@ -37,7 +37,7 @@ const APP_SECRET = "fc49fb857b786fa54258b0b803cdf30b";
 const VALIDATION_TOKEN = "5e884898da28047151d0e56f8dc6Ys";
 
 // Generate a page access token for your page from the App Dashboard
-const PAGE_ACCESS_TOKEN = "8ef62365f5c065f3cd90123f41ca442f";
+const PAGE_ACCESS_TOKEN = "EAADoHEozccoBAKXCFx5R8GyvMXHVa5jtManBBZBHFcCDbD6Hy8JjWSxa86pYVVCfNJNFmBEFkHSNMWZAWfaJvYbrpIN1RVq7gdgxgZAwwuOWxPgGZCZAjSvrNR9is4XfGPVXxYAhvZAds5VA9tDlvXal1GkJ7lktPzMQ21v9WKWgZDZD";
 
 // URL where the app is running (include protocol). Used to point to scripts and 
 // assets located at this address. 
