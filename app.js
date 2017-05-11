@@ -31,13 +31,13 @@ app.use(express.static('public'));
  */
 
 // App Secret can be retrieved from the App Dashboard
-const APP_SECRET = "82b0b904c17e66835da63055bda8217f";
+const APP_SECRET = "fc49fb857b786fa54258b0b803cdf30b";
 
 // Arbitrary value used to validate a webhook
 const VALIDATION_TOKEN = "5e884898da28047151d0e56f8dc6Ys";
 
 // Generate a page access token for your page from the App Dashboard
-const PAGE_ACCESS_TOKEN = "f71495ab6965438ccbddeaaa37f76e2c";
+const PAGE_ACCESS_TOKEN = "8ef62365f5c065f3cd90123f41ca442f";
 
 // URL where the app is running (include protocol). Used to point to scripts and 
 // assets located at this address. 
