@@ -303,7 +303,7 @@ function receivedMessage(event) {
         sendAccountLinking(senderID);
         break;
       case 'hello':
-        sendTextMessage("Hello user!");
+        sendTextMessage(senderID, "Hello user!");
         break;
       default:
         sendTextMessage(senderID, messageText);
