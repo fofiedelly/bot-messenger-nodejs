@@ -74,6 +74,7 @@ app.get('/webhook', function (req, res) {
  * https://developers.facebook.com/docs/messenger-platform/product-overview/setup#subscribe_app
  *
  */
+
 app.post('/webhook', function (req, res) {
   var data = req.body;
   console.log(data);
@@ -827,6 +828,10 @@ function callSendAPI(messageData) {
   });
 }
 
+app.get('/fofie', function(req,res) {
+  var fofieID = "204833350026309";
+  sendTextMessage(fofieID, "Hallo Fofie, you've suscribed to this Feed");
+});
 // Start server
 // Webhooks must be available via SSL with a certificate signed by a valid 
 // certificate authority.
