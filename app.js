@@ -213,6 +213,7 @@ function receivedAuthentication(event) {
 function receivedMessage(event) {
   console.log(event);
   var senderID = event.sender.id;
+  console.log(senderID);
   var recipientID = event.recipient.id;
   var timeOfMessage = event.timestamp;
   var message = event.message;
